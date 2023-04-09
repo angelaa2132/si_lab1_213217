@@ -1,0 +1,96 @@
+еcho "# si_lab1_213217 " >> README.md
+git init
+Initialized empty Git repository in C:\Users\38972\lab1/.git/
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/angelaa2132/si_lab1_213217
+git push -u origin master
+->креирам remote репозиториум, а потоа и локален репозиторуим и ги поврзуваме локалниот со remote repo
+
+git add README.md
+git commit -m "Inital commit"
+->додаваме README file и правиме commit со пораката Inital commit
+
+git add SILab1.java
+git commit -m "Add java class"
+->додаваме file SILab1.java и правиме commit со пораката Add java class
+
+git push origin master
+->push за java и readme фајлот да се постават на remote репозиторуимот
+
+git branch bug1
+git branch bug2
+git branch bug3
+->Ги отравраме 3те нови гранки 
+
+git checkout bug1
+->Се префрлame на гранката bug1
+
+git commit -am "Fix wrong loop for reading"
+->Ја поправаме грешката во кодот и правиме commit со порака и со -am го додаваме фалјот одма во stage mode
+
+git push -u origin bug1
+->ја синхронизирав гранката
+
+git checkout bug2
+->Се префрламе на гранката bug2
+
+git commit -am "Fix wrong condition in filterOddNumbers"
+->Ја поправаме грешката во кодот и правиме commit со порака и со -am го додаваме фалјот одма во stage mode
+
+git push -u origin bug2
+->ја синхронизирав гранката
+
+git checkout bug3
+->Се префрламе на гранката bug3
+
+git commit -am "Fix method sumEvenNumbers"
+->Ја поправаме грешката во кодот и правиме commit со порака и со -am го додаваме фалјот одма во stage mode
+
+git push -u origin bug3
+->ја синхронизирав гранката
+
+git checkout master
+-> Одиме на гранката master
+
+git add 213217.txt
+git commit -m "команди"
+git push origin master
+->го додадов новиот file со commit порака и го синхронизирав со remote repo
+
+
+git merge bug1
+Updating 58d3747..cb312c2
+Fast-forward
+ SILab1.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+->ја спојуваме гранката со master
+
+git push origin master
+->синхрнизирам
+
+
+git merge bug2
+Auto-merging SILab1.java
+Merge made by the 'ort' strategy.
+ SILab1.java | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+->ја спојуваме гранката со master
+
+git push origin master
+->синхрнизирам
+
+git checkout bug3
+->Се префрлувам на гранката bug3
+
+git rebase master
+-> Правиме rebase спрема master
+
+git log
+->информација за сите логови
+
+git add logs.txt 213217.txt
+git commit -m "Final commit"
+git push origin master
+->Ги додаваме последните 2 фајлови, правиме commit и синхронизација со master
