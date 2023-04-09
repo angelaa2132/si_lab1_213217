@@ -13,11 +13,11 @@ public class SILab1 {
         return result;
     }
 
-    private static int sumEvenNumbers(List<Integer> list) {
-        int sum = 1;
-        for (Integer el : list) {
-            if (el % 2 == 0) {
-                sum *= el;
+   private static int sumEvenNumbers(List<Integer> numbers) {
+        int sum = 0;
+        for (int num : numbers) {
+            if (num % 2 == 0) {
+                sum += num;
             }
         }
         return sum;
