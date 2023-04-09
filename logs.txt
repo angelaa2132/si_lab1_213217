@@ -1,0 +1,28 @@
+commit 7f6aa66f12a3fda4050a018ec8dd8bc1558fa516 (HEAD -> master, origin/master)
+Merge: cb312c2 9602a73
+Author: angelaa2132 <angela.azhieska@students.finki.ukim.mk>
+Date:   Sun Apr 9 15:26:52 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 9602a73d5dc72ae908ca2d73dce4936f806d5135 (origin/bug2, bug2)
+Author: angelaa2132 <angela.azhieska@students.finki.ukim.mk>
+Date:   Sun Apr 9 15:23:40 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit cb312c2b10a84209409d5b54d40680d43b504403 (origin/bug1, bug1)
+Author: angelaa2132 <angela.azhieska@students.finki.ukim.mk>
+Date:   Sun Apr 9 15:21:47 2023 +0200
+
+    fix wrong loop for reading
+
+commit 58d37471924905985667230030eb4f37f75e4a64
+Author: angelaa2132 <angela.azhieska@students.finki.ukim.mk>
+Date:   Sun Apr 9 15:18:07 2023 +0200
+
+    add java class
+
+commit 9711a94e9cee9f043db5a64ca69497f70378315a
+Author: angelaa2132 <angela.azhieska@students.finki.ukim.mk>
+Date:   Sun Apr 9 15:13:20 2023 +0200
