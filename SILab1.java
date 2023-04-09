@@ -3,14 +3,14 @@ import java.util.List;
 import java.util.Scanner;
 
 public class SILab1 {
-    public static List<Integer> filterOddNumbers(List<Integer> list) {
-        List<Integer> result = new ArrayList<>();
-        for (Integer el : list) {
-            if (el % 2 == 0) {
-                result.add(el);
+  public static List<Integer> filterOddNumbers(List<Integer> list) {
+        List<Integer> newList = new ArrayList<>();
+        for (Integer i : list) {
+            if (i % 2 == 0) {
+                newList.add(i);
             }
         }
-        return result;
+        return newList;
     }
 
     private static int sumEvenNumbers(List<Integer> list) {
